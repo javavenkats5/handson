@@ -10,6 +10,7 @@
         <intercept-url pattern="/**" access="hasRole('ROLE_APP')" />
     </http>
 
+
     <authentication-manager>
         <authentication-provider>
             <user-service>
