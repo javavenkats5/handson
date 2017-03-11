@@ -1,2 +1,2 @@
-# pocs
-pocs for local server
+# handson
+hands on code examples for local server
