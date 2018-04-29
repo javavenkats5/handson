@@ -9,7 +9,7 @@ public class LazyInstantiationSingletonPattern implements Serializable{
 		
 	}
 	
-	private static  LazyInstantiationSingletonPattern getInstance(){
+	private static synchronized LazyInstantiationSingletonPattern getInstance(){
 		if (obj == null){
 			synchronized(LazyInstantiationSingletonPattern.class){  
 		        if (obj == null){  
