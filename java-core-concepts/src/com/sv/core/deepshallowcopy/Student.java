@@ -53,10 +53,10 @@ public class Student implements Cloneable {
 		return super.clone();
 	}*/
 	
-	// Deep Copy
+	
 	protected Object clone() throws CloneNotSupportedException{
 		Student student = (Student) super.clone();
-		 
+		// Deep Copy - enable below
        // student.division = (Division) division.clone();
  
         return student;

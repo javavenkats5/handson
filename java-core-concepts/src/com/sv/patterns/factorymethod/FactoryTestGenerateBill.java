@@ -3,7 +3,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class GenerateBill{  
+public class FactoryTestGenerateBill{  
+	
     public static void main(String args[])throws IOException{  
       GetPlanFactory planFactory = new GetPlanFactory();  
         
